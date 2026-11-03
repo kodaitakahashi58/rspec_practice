@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/rspec_practice
+    tty: true
+    stdin_open: true
